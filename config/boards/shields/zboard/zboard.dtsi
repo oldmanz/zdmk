@@ -30,8 +30,8 @@
 		label = "KSCAN";
 		diode-direction = "col2row";
 		row-gpios
-		= <&pro_micro 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-		, <&pro_micro 16 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+		= <&pro_micro 11 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+		, <&pro_micro 9 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
 		, <&pro_micro 14 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
 		, <&pro_micro 15 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
 		;
@@ -62,6 +62,6 @@
         // instead of using a reset circuit.
         //
         // The bottom right pin of the nice!nano (when it is facing down)
-        rst-gpios = <&pro_micro 9 0>;
+        //rst-gpios = <&pro_micro 9 0>;
     };
 };
